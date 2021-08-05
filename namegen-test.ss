@@ -6,6 +6,8 @@
     (test-case "print"
                (println (namegen '(s ("ith" ("'" C)) V)))
                (println (namegen '(s C V " '" m "' " s ((C V) (V D)))))
+               (println (namegen '(sw " " sw)))
+               (println (namegen '(n  " " sw)))
                (println (namegen '(s C V "." s C V))))))
 
 
